@@ -2,7 +2,7 @@
 
 ### Main Topics :zap:
 
--  Review
+- Review
 
 ### Tips :tipping_hand_woman:
 
@@ -11,10 +11,13 @@
 - If you get stuck, try to break down the problem. What small thing can you figure out first? Remember, instructors have a no touching your key board rule (we can help guide you, but won't debug for you!). Part of being a software engineer IS solving problems. It's a marathon, not a sprint :running_woman:
 
 - Other debugging tips
+
   - [ ] Write down the logic of your code
   - [ ] Re-read documentation
   - [ ] Look at example code on github
   - [ ] Go slow. Do one thing at a time. You got this :muscle:
+
+  In the DoNow.html add on the appropriate event listeners to complete the tasks in the file. You may create an link a JS file to the index.html
 
 ## What is one thing that I learned from doing this project? :books:
 
