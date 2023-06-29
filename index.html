@@ -24,6 +24,18 @@
       li.nav-item {
         margin: 2vw;
       }
+
+      #todo li {
+        margin: 10px;
+      }
+
+      .delete {
+        cursor: pointer;
+        margin-left: 2rem;
+        padding: 3px;
+        border: 1px solid black;
+        border-radius: 1000px;
+      }
     </style>
   </head>
   <body class="font3">
@@ -52,13 +64,20 @@
       <h1>to do list</h1>
       <p>Plain Javascript: Code Along</p>
       <p id="message"></p>
-      <input
-        type="text"
-        class="form-control"
-        placeholder="name"
-      />
-      <br />
+      <form id="add-item">
+        <input
+          type="text"
+          class="form-control"
+          placeholder="Write your to do item here"
+        />
+        <br>
+        <button>Add Item</button>
+      </form>
+      <br>
       <h5>To Do List</h5>
+      <ul id="todo">
+
+      </ul>
       <main class="main"></main>
     </div>
     <script
