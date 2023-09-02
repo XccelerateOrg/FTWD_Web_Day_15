@@ -6,10 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <title></title>
     <meta name="description" content="" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1"
-    />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
@@ -33,14 +30,10 @@
           <a class="nav-link" href="DoNow.html">DoNow</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="planning.html"
-            >planning</a
-          >
+          <a class="nav-link" href="planning.html">planning</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link active" href="index.html"
-            >To Do List</a
-          >
+          <a class="nav-link active" href="index.html">To Do List</a>
         </li>
       </ul>
     </nav>
@@ -66,14 +59,33 @@
       <!-- Task Two -->
       <h3>Task Two:</h3>
 
-      <p class="hoverOrange">
-        On hover, change my color to orange
-      </p>
+      <p class="hoverOrange">On hover, change my color to orange</p>
       <p></p>
 
       <!-- Task Two -->
       <hr />
     </div>
+
+    <script>
+      "use strict";
+
+      // chage color
+      const btnChange = document.querySelector("#submitButton");
+      const changeMe = document.querySelector("#changeMe");
+      const pHover = document.querySelector(".hoverOrange");
+
+      btnChange.addEventListener("click", function () {
+        changeMe.style.backgroundColor = "blue";
+      });
+
+      pHover.addEventListener("mouseover", function () {
+        pHover.style.color = "orange";
+      });
+
+      pHover.addEventListener("mouseout", function () {
+        pHover.style.color = "";
+      });
+    </script>
 
     <script
       src="https://code.jquery.com/jquery-3.5.1.js"
